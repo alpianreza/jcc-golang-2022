@@ -8,6 +8,7 @@ import (
 
 func main() {
 	// soal 1
+
 	var bangunDatar HitungBangunDatar
 	var bangunRuang HitungBangunRuang
 
@@ -33,6 +34,7 @@ func main() {
 	fmt.Println()
 
 	// soal 2
+
 	var colors = []string{"Mystic Bronze", "Mystic White", "Mystic Black"}
 	var sentence Smartphone = Phone{
 		Name:   "Samsung Galaxy Note 20",
@@ -44,6 +46,7 @@ func main() {
 	fmt.Println()
 
 	// soal 3
+
 	var result interface{}
 	var LuasPersegi = func(n int, d bool) interface{} {
 		switch {
@@ -67,6 +70,7 @@ func main() {
 	fmt.Println()
 
 	// soal 4
+
 	var prefix interface{} = "hasil penjumlahan dari "
 	var kumpulanAngkaPertama interface{} = []int{6, 8}
 	var kumpulanAngkaKedua interface{} = []int{12, 14}

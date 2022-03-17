@@ -1,3 +1,3 @@
-module Tugas-9
+module Tugas9
 
 go 1.17

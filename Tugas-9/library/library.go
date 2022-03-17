@@ -66,7 +66,7 @@ func (t Tabung) LuasPermukaan() float64 {
 	return 2 * math.Pi * t.JariJari * (t.JariJari + t.Tinggi)
 }
 
-// struct iface func soal 2
+// struct iface func
 type Phone struct {
 	Name, Brand string
 	Year        int
